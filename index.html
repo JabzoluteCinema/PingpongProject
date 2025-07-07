@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ping Pong but on browser low budget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="difficulty-container">
+    <button class="diff-btn" data-diff="easy">Easy</button>
+    <button class="diff-btn" data-diff="medium">Medium</button>
+    <button class="diff-btn" data-diff="hard">Hard</button>
+  </div>
+  <div id="counter">Hits: 0</div>
+  <canvas id="pong" width="800" height="500"></canvas>
+  <div id="overlay" class="hide">
+    <div id="result-title"></div>
+    <button id="play-again">Play Again</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
